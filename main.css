@@ -67,8 +67,8 @@ body .box-grid{
  .para p span{
     display: block;
 }
-/* bottom */
 
+/* bottom */
  .bottom{
      display: flex;
      flex-direction: row;
@@ -83,14 +83,12 @@ body .box-grid{
  }
  .bottom .para-1{
      font-size:20px;
-     font-family: 'Inter', sans-serif;
-     
+     font-family: 'Inter', sans-serif; 
  }
  /* card */
 
  .card {
     width: 100%;
-  
 }
 .card .heading{
     padding-left: 10%;
@@ -101,6 +99,7 @@ body .box-grid{
 .card .bottom{
     padding-left: 10%;
 }
+
   
  /* Media queries */
  @media only screen and (max-width: 375px) {
@@ -110,6 +109,7 @@ body .box-grid{
         height: 100%;
         margin-top: 0px;
     }
+
     /* item content  */
     .item-content{
         width: 80%;
@@ -153,6 +153,7 @@ body .box-grid{
     .card .heading{
         padding-left: 0%;
     }
+    /* paragraph */
     .para{
         text-align: center;
         display: revert;
@@ -161,8 +162,7 @@ body .box-grid{
     }
     .card .para p span{
         display: revert;
-        flex-direction: row;
-         
+        flex-direction: row;  
     }
     .card .para{
         padding-left: 0%;
@@ -170,6 +170,8 @@ body .box-grid{
        display: table-row-group;
     font-size: 19px;
     }
+
+    /* bottom */
     .card .bottom{
         padding-left: 30%;
     }
