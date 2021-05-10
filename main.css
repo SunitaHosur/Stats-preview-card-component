@@ -187,3 +187,88 @@ body .box-grid{
     }
        
     }
+
+
+    /* 415px mobiles */
+    @media only screen and (max-width: 415px) {
+        .box-grid-item{  
+            flex-direction: column-reverse;
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+        }
+        /* item content  */
+    .item-content{
+        width: 80%;
+        height: 65vh;
+    }
+    .item-content.col-1{
+        height: 100vh;
+        margin-bottom: 25%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-top: 0px;
+      justify-content: flex-start;
+      border-top-left-radius: 0px;  
+    }
+    .col-2{
+        margin-top: 25%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;  
+        width: 80%;
+        background-image: url(images/image-header-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        background-size:cover;
+        box-shadow: inset 0 0 0 2000px rgb(170 92 219 / 70%);
+       }
+       .item-content.col-2{
+        border-bottom-right-radius: 0px;   
+       }
+       .heading{
+           margin-bottom: 5%;
+           font-size: 16px;
+           display: flex;
+           flex-direction: row;
+           text-align: center;
+           margin-top: 8%;
+       }
+       .heading h1 span{
+        display: revert;
+        flex-direction: row;
+    }
+    .card .heading{
+        padding-left: 0%;
+    }
+    /* paragraph */
+    .para{
+        text-align: center;
+        display: revert;
+        flex-direction: row;
+        font-size: 16px;
+    }
+    .card .para p span{
+        display: revert;
+        flex-direction: row;  
+    }
+    .card .para{
+        padding-left: 0%;
+       text-align: center;
+       display: table-row-group;
+    font-size: 25px;
+    }
+
+    /* bottom */
+    .card .bottom{
+        padding-left: 30%;
+    }
+       .bottom{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: -12%;   
+    }
+    }
